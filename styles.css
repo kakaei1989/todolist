@@ -92,13 +92,43 @@ body {
     background: #d9d9d9;
     color: #555;
     float: left;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 0;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      border-radius: 0;
   }
-  
-  .addBtn:hover {
+
+.addBtn:hover {
     background-color: #bbb;
-  }
+}
+
+@font-face {
+    font-family: Vazir1;
+    src: url('fonts/Vazir-Regular.eot');
+    src: url('fonts/Vazir-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Vazir-Regular.woff2') format('woff2'),
+    url('fonts/Vazir-Regular.woff') format('woff'),
+    url('fonts/Vazir-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: Vazir1;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+blockquote {
+    font-weight: 500;
+    padding: 10px;
+    border: 1px dashed #666666;
+}
+
+p {
+    font-size: x-large;
+}
